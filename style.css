@@ -1,7 +1,7 @@
-/* @font-face {
-    font-family: FBP;
-    src: url(./assets/Freight\ Big\ Pro\ Book.ttf);
-} */
+@font-face {
+    font-family: NHD;
+    src: url(./assets/NeueHaasDisplayRoman.ttf);
+}
 
 * {
     margin: 0;
@@ -59,12 +59,36 @@ nav{
     width: 100%;
     position: absolute;
     z-index: 9;
-    padding: 30px 50px;
+    padding: 10px 50px;
     /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vw;
+    padding: 1rem 1.5rem;
+}
+
+.nav-links>div a{
+    font-size: 1rem;
+    font-family: NHD;
+    font-weight: 500;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-links .icon{
+    width: 3vw;
 }
 
 .page1 {
     background-color: #F5E41B;
+    flex-direction: column;
 }
 
 .loader h1, .page1 h1 {
@@ -74,6 +98,25 @@ nav{
     letter-spacing: -3px;
     transition: all ease-in .1s;
 
+}
+
+.page1 h1{
+    margin-top: 28.75vh;
+}
+section{
+    margin-top: 15vh;
+    padding: 0 5vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section>span a{
+    font-family: NHD;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
 }
 
 .page2 {
