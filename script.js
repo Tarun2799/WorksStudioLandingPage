@@ -43,6 +43,7 @@ image.addEventListener('click', () => {
     gsap.to(image, {
         rotation: `+=${rotateDirection}`,
         duration: 1,
+        opacity: 0.8,
         onStart: () => {
             // Optional: You can delay the image swap to happen during the rotation
             setTimeout(() => {
