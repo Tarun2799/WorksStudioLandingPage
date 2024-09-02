@@ -59,13 +59,13 @@ gsap.to(image, {
 // gsap.to(projectsDiv, { left: "50%", duration: 1, });
 // Update div positions based on the current state
 if (divState) {
-    gsap.to(aboutDiv, { left: "90%", duration: 1 , opacity: 0});
+    gsap.to(aboutDiv, { left: "70%", duration: 1 });
     gsap.to(studiesDiv, { left: "90%", duration: 1 , opacity: 0});
-    gsap.to(projectsDiv, { left: "70%", duration: 1 });
+    gsap.to(projectsDiv, { left: "90%", duration: 1, opacity: 0 });
 } else {
-    gsap.to(aboutDiv, { left: "50%", duration: 1 , opacity: 1});
+    gsap.to(aboutDiv, { left: "50%", duration: 1 });
     gsap.to(studiesDiv, { left: "70%", duration: 1 , opacity: 1});
-    gsap.to(projectsDiv, { left: "30%", duration: 1 });
+    gsap.to(projectsDiv, { left: "30%", duration: 1 , opacity: 1});
 }
 
 // Toggle the div state for the next click
@@ -104,21 +104,21 @@ document.querySelector("footer h2").addEventListener("click", ()=>{
 
 
 
-let col1 = document.querySelector(".col1");
-let col2 = document.querySelector(".col2");
-let col3 = document.querySelector(".col3");
+// let col1 = document.querySelector(".col1");
+// let col2 = document.querySelector(".col2");
+// let col3 = document.querySelector(".col3");
 
 // page2 background change feature.
-let elems = document.querySelectorAll(".elem");
-let page2 = document.querySelector(".page2");
+// let elems = document.querySelectorAll(".elem");
+// let page2 = document.querySelector(".page2");
 
-elems.forEach(function(elem){
-elem.addEventListener("mouseenter", function(){
-    let bgimg = elem.getAttribute("data-img");
-    // console.log(bgimg)
-    page2.style.backgroundImage = `url(${bgimg})`;
-})
-})
+// elems.forEach(function(elem){
+// elem.addEventListener("mouseenter", function(){
+//     let bgimg = elem.getAttribute("data-img");
+//     // console.log(bgimg)
+//     page2.style.backgroundImage = `url(${bgimg})`;
+// })
+// })
 
 
 // Page3 Images loading 
