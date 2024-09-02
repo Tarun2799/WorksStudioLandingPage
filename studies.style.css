@@ -45,8 +45,6 @@ html, body {
 }
 
 .page1{
-    /* height: 100vh; */
-    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,7 +88,6 @@ nav{
     position: absolute;
     z-index: 9;
     padding: 2vw 3vw;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -101,7 +98,6 @@ nav{
     align-items: center;
     justify-content: center;
     width: 50%;
-    /* background-color: red; */
     gap: 3vw;
     padding: 1rem 1rem;
     position: relative;
@@ -111,7 +107,7 @@ nav{
     font-size: 1rem;
     font-family: NHD;
     font-weight: 500;
-    /* text-decoration: none; */
+
     color: white;
 }
 
@@ -119,7 +115,6 @@ nav{
     width: 2.5vw;
     cursor: pointer;
     transition: transform 0.3s ease;
-    /* background-color: rgb(4, 254, 254); */
 }
 .nav-link{
     position: relative;
@@ -153,14 +148,12 @@ nav{
 
 .link1 {
     position: absolute;
-    /* background-color: lightblue; */
     top: 30%;
     left: 30%;
   }
 
   .link2 {
     position: absolute;
-    /* background-color: bisque; */
     transition: background-color 0.3s ease;
     top: 30%;
     left: 50%;
@@ -168,7 +161,6 @@ nav{
 
   .link3 {
     position: absolute;
-    /* background-color: aquamarine; */
     transition: background-color 0.3s ease;
     top: 30%;
     left: 70%;
@@ -176,7 +168,6 @@ nav{
 
   .link4 {
     position: absolute;
-    /* background-color: #F5E41B; */
     transition: background-color 0.3s ease;
     padding: 0 3vw;
     top: 0%;
@@ -185,7 +176,6 @@ nav{
 
 .page1 {
     background-color: #000000;
-    /* flex-direction: column; */
 }
 
 .page1 {
@@ -196,22 +186,7 @@ nav{
     position: relative;
 }
 
-/* .loader h1, .page1 h1 {
-    font-size: 6.9vw;
-    font-weight: 100;
-    line-height: 5vw;
-    letter-spacing: -3px;
-    transition: all ease-in .1s;
-
-} */
-
-/* .page1 h1{
-    margin-top: 23vh;
-} */
 section{
-    /* margin-top: 20vh; */
-    /* padding: 0 5vw; */
-    /* width: 100%; */
     height: 95%;
     display: flex;
     /* flex-direction: column; */
@@ -245,8 +220,7 @@ section>span a{
     width: 100%;
     height: 100vh;
     position: fixed;
-     top: -10%;
-    /*left: 0; */
+    top: -10%;
     z-index: 10;
     display: flex;
     align-items: center;
@@ -260,12 +234,6 @@ h1{
     font-size: 6vw;
     font-weight: 100;
     letter-spacing: 1px;
-    /* font-family: ; */
-    /* position: absolute; */
-    /* z-index: 500; */
-    /* top: 20%; */
-    /* left: 50%; */
-    /* transform: translate(-50%,-50%); */
     opacity: 0;
     pointer-events: none;
     transition: all ease-in .5s;
@@ -309,20 +277,8 @@ h1{
     justify-content: center;
     align-items: center;
     padding: 5vw;
-    /* filter: blur(5px); */
     transition: all ease-in .2s;
 }
-
-/* .overlay p{
-    font-size: 3vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    line-height: 2.5vw;
-    opacity: 0;
-    transition: all ease-in .2s;
-
-} */
 
 .image-div:hover img{
     filter: blur(4px);
@@ -332,9 +288,6 @@ h1{
     background-color: rgba(0, 0, 0, 0.238);
 }
 
-/* .image-div:hover .overlay p{
-    opacity: 1;
-} */
 
 .image-div:hover img{
     scale: .9;
@@ -410,7 +363,6 @@ footer .foot{
 }
 
 .extra{
-    /* width: 100%; */
     display: flex;
     align-items: center;
     justify-content: center;

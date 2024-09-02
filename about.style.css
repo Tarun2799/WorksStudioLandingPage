@@ -49,7 +49,6 @@ html, body {
     color: #ffffff;
     position: fixed;
     z-index: 10;
-    /* display: none; */
 }
 
 
@@ -81,7 +80,6 @@ nav{
     position: absolute;
     z-index: 9;
     padding: 2vw 3vw;
-    /* background-color: red; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,7 +90,6 @@ nav{
     align-items: center;
     justify-content: center;
     width: 50%;
-    /* background-color: red; */
     gap: 3vw;
     padding: 1rem 1rem;
     position: relative;
@@ -102,7 +99,6 @@ nav{
     font-size: 1rem;
     font-family: NHD;
     font-weight: 500;
-    /* text-decoration: none; */
     color: white;
 }
 
@@ -144,14 +140,12 @@ nav{
 
 .link1 {
     position: absolute;
-    /* background-color: lightblue; */
     top: 30%;
     left: 30%;
   }
 
   .link2 {
     position: absolute;
-    /* background-color: bisque; */
     transition: background-color 0.3s ease;
     top: 30%;
     left: 50%;
@@ -167,7 +161,6 @@ nav{
 
   .link4 {
     position: absolute;
-    /* background-color: #F5E41B; */
     transition: background-color 0.3s ease;
     padding: 0 3vw;
     top: 0%;
@@ -199,12 +192,8 @@ nav{
     margin-top: 23vh;
 }
 section{
-    /* margin-top: 20vh; */
-    /* padding: 0 5vw; */
-    /* width: 100%; */
     height: 95%;
     display: flex;
-    /* flex-direction: column; */
     justify-content: flex-end;
     align-items: flex-end;
     position: absolute;
@@ -227,14 +216,10 @@ section>span a{
     width: 100%;
     padding: 6vw 6vw;
     background-color: black;
-    /* background-size: cover;
-    background-position: center; */
     color: #ffffff;
     display: flex;
-    /* flex-direction: column; */
     align-items: center;
     justify-content: center;
-    /* text-align: center; */
 }
 
 .page2 .info-container{
@@ -242,8 +227,6 @@ section>span a{
     align-items: center;
     gap: 3vw;
     font-family: FBPL;
-
-    /* justify-content: space-between; */
 }
 
 .heading{
@@ -285,91 +268,6 @@ section>span a{
     cursor: pointer;
 }
 
-
-/* .elem{
-    background-color: red;
-    width: 100%;
-    position: relative;
-    cursor: pointer;
-}
-
-.elem .blur{
-    position: absolute;
-    width: 35%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    background: linear-gradient(to right, #f5e31bf0, #F5E41B, #f5e31bf0);
-    box-shadow: 10px 0px 20px 20px #F5E41B, -10px 0px 20px 20px #F5E41B;
-    height: 100%;
-    z-index: 8;
-}
-
-
-.elem h2{
-    font-size: 6.8vw;
-    text-transform: capitalize;
-    font-weight: 100;
-    position: relative;
-    line-height: 5vw;
-    z-index: 9;
-}
-
-.elem .moving{
-    background-color: #F5E41B;
-    width: 100%;
-    white-space: nowrap;
-    padding: .6rem 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(0,-45%) scaleY(0);
-    transition: all ease .3s;
-    overflow: hidden;
-}
-
-.elem .moving .moving-in{
-    display: inline-block;
-    white-space: nowrap;
-    animation-name: moving;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-}
-
-.elem .moving .moving-in h5{
-    color: black;
-    font-family: NHDL;
-    display: inline-block;
-    font-size: 1.2vw;
-    font-weight: 500;
-    text-transform: uppercase;
-    margin-right: 2rem;
-    transition: all ease .3s;
-    opacity: 0;
-    transition-delay: .2s;
-}
-
-@keyframes moving {
-    from{
-        transform: translateX(0);
-    }
-    to{
-        transform: translateX(-100%);
-    }
-}
-
-.elem:hover .moving{
-    transform: translate(0,-45%) scaleY(1);
-}
-
-.elem:hover .moving h5{
-    opacity: 1;
-}
-
-.elem:hover h2{
-    font-style: italic;
-    color: black;
-} */
 
 .page3 {
     min-height: 120vh;
@@ -426,67 +324,6 @@ section>span a{
 }
 
 
-/* .image-container{
-   
-    display: flex;
-    gap: 2vw;
-    
-}
-.column{
-    display: flex;
-    flex-direction: column;
-    gap: 2vw;
-}
-
-.image-div{
-    
-    position: relative;
-    overflow: hidden;
-}
-
-.image-div img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: center;
-    transition: all ease-in .3s;
-}
-
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.066);
-    position: absolute;
-    z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 5vw;
-    transition: all ease-in .2s;
-}
-
-.overlay p{
-    font-size: 3vw;
-    text-transform: uppercase;
-    text-align: center;
-    color: #ffffff;
-    line-height: 2.5vw;
-    opacity: 0;
-    transition: all ease-in .2s;
-
-}
-
-.image-div:hover .overlay{
-    background-color: black;
-}
-
-.image-div:hover .overlay p{
-    opacity: 1;
-}
-
-.image-div:hover img{
-    scale: 1.1;
-} */
 
 
 footer{
