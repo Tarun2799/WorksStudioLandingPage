@@ -139,8 +139,7 @@ const col3Array = [{
     emText: "IT",
 },];
 
-for(let i=0; i<4; i++){
-    
+col1Array.forEach(arr => {
     let div1 = document.createElement("div");
     div1.classList.add("image-div");
 
@@ -149,9 +148,9 @@ for(let i=0; i<4; i++){
     div2.classList.add("overlay");
     
     let para = document.createElement("p");
-    para.textContent = col1Array[i].paraText;
+    para.textContent = arr.paraText;
     let emphasis = document.createElement('em');
-    emphasis.textContent = col1Array[i].emText;
+    emphasis.textContent = arr.emText;
     para.appendChild(emphasis);
     div1.setAttribute('data-text', para.textContent);
 
@@ -161,15 +160,18 @@ for(let i=0; i<4; i++){
 
 
     let img = document.createElement("img");
-    img.src = col1Array[i].imgSrc;
+    img.src = arr.imgSrc;
 
     div1.appendChild(div2);
     div1.appendChild(img);
 
     col1.appendChild(div1);
-}
+ })
+    
 
-for(let i=0; i<3; i++){
+
+
+ col2Array.forEach( arr => {
     let div1 = document.createElement("div");
     div1.classList.add("image-div");
 
@@ -177,9 +179,9 @@ for(let i=0; i<3; i++){
     div2.classList.add("overlay");
 
     let para = document.createElement("p");
-    para.textContent = col2Array[i].paraText;
+    para.textContent = arr.paraText;
     let emphasis = document.createElement('em');
-    emphasis.textContent = col2Array[i].emText;
+    emphasis.textContent = arr.emText;
     para.appendChild(emphasis);
     div1.setAttribute('data-text', para.textContent);
 
@@ -187,17 +189,19 @@ for(let i=0; i<3; i++){
 
 
     let img = document.createElement("img");
-    img.src = col2Array[i].imgSrc;
+    img.src = arr.imgSrc;
 
     div1.appendChild(div2);
     div1.appendChild(img);
 
     col2.appendChild(div1);
-    // console.log(div1)
-}
+  })
 
 
-for(let i=0; i<3; i++){
+
+
+
+col3Array.forEach( arr => { 
     let div1 = document.createElement("div");
     div1.classList.add("image-div");
 
@@ -205,26 +209,25 @@ for(let i=0; i<3; i++){
     div2.classList.add("overlay");
 
     let para = document.createElement("p");
-    para.textContent = col3Array[i].paraText;
+    para.textContent = arr.paraText;
     let emphasis = document.createElement('em');
-    emphasis.textContent = col3Array[i].emText;
+    emphasis.textContent = arr.emText;
     para.appendChild(emphasis);
 
     div1.setAttribute('data-text', para.textContent);
 
-    // div2.appendChild(para);
 
 
     let img = document.createElement("img");
-    img.src = col3Array[i].imgSrc;
+    img.src = arr.imgSrc;
 
     div1.appendChild(div2);
     div1.appendChild(img);
 
     col3.appendChild(div1);
-    console.log(div1)
+})
 
-}
+
 
 
 // STUDIES PAGE FEATURE

@@ -308,6 +308,7 @@ section>span a{
     position: relative;
     overflow: hidden;
     /* margin: 1.5vw 1.5vw; */
+    cursor: pointer;
 }
 
 .image-div img{
